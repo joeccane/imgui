@@ -18,7 +18,7 @@ project "imgui"
     "imstb_truetype.h",
     "imgui_demo.cpp"
   }
-  
+  buildoptions "/w"
   filter "system:windows"
     systemversion "latest"
     cppdialect "C++17"
